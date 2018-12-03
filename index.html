@@ -1,0 +1,50 @@
+<html> 
+    <head>
+        <title>
+            Recipify
+        </title>
+        <script src=></script>
+        <script type = 'application/javascript' src= './pythonRequests.js'></script>
+        <script type = 'application/javascript' src= './search.js'></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="indexStyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link rel="shortcut icon" href='https://i.ibb.co/3psJbGX/alphabet-2051673-1920.png'>
+    </head>
+    <body>
+ <!--top navbar-->     
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent text-rgb(25, 172, 54)">
+                    <a class="navbar-brand text-rgb(25, 172, 54)" href="#">
+                        Recipify
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+<!--phrase at top-->
+        <div id='top'>
+            Search for a Recipe:
+        </div>
+        <div class="wrap">
+            <div class="search">
+               <input id="inputSearch" type="text" class="searchTerm" placeholder="type here...">
+               <button type="submit" class="searchButton" onclick="doEverything(path, input)">
+                 <a class="fa fa-search" href="#">Search</a>
+              </button>
+              
+            </div>
+         </div>
+    </body>
+</html>
+
+<!-- do quotes about food on bottom of every page that changes every time it loads -->

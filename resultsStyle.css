@@ -1,0 +1,50 @@
+body, html{
+    height: 100%;
+}
+body{
+    background-image: url('https://i.ibb.co/vZyd3R5/47234913-348736319263177-2290912616266072064-n.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-outline-success{
+    color: black;
+    border-color: black;
+}
+.card-1 {
+  margin-top: 7%;
+  background-color: white;
+  border-radius: 35px;
+  font-family: 'Pacifico', cursive;
+  margin-left: 40%;
+}
+
+.card-2 {
+  margin-top: 7%;
+  background-color: white;
+  border-radius: 35px;
+  font-family: 'Pacifico', cursive;
+  margin-right: 20%;
+}
+.card-3 {
+  background-color: white;
+  margin-top: 2%;
+  border-radius: 35px;
+  font-family: 'Pacifico', cursive;
+  margin-left: 40%;
+}
+.card-4 {
+  background-color: white;
+  margin-top: 2%;
+  border-radius: 35px;
+  font-family: 'Pacifico', cursive;
+  margin-right: 20%;
+}
+.btn-primary{
+  margin-bottom: 3px;
+}
